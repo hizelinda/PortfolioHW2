@@ -1,102 +1,135 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <title>Professional Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-</head>
+    </head>
 <body>
 
-<div class="navbar">
-  <div class="TopBar">
-    <div class="Title">Portfolio</div>
-      <ul class="menu">
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Project">Project</a></li>
-        <li><a href="#Contact">Contact</a></li>
-      </ul>
-  </div>
-</div>
-
-<!-- home -->
-<div class="main" id="Home">
-    <h1>Zelinda Singh</h1>
-    <h2>Web Developer</h2>
-  
-    <ul class="soc">
-      <li><a href="github.html"><img src="github.png">Github</a></li>
-      <li><a href="fb.html"><img src="facebook.png">Facebook</a></li>
-      <li><a href="email.html"><img src="email.png">Email</a></li>
-    </ul> 
-</div>
-
-<!-- About me -->
-<div class="main" id="About">
-    <h3>About me</h3>
-    <div class="column">
-      <img src="avatar.jpg" alt="avatar">
-      <div class="content">
-          <p>My name is Zelinda Singh and i am currently working as an accountant. I am ambitious and very driven. I try to give my best in everything I do and I am not shy to ask questions if I don't understand the task. I also try to do my research before coming to a conclusion or asking anyone for help. I am a very hardworking person and alway give my best in everthing I do.
-          </p>
-              <a href="Resume.html">Resume</a>       
-    
-      </div>
-  
-</div>
-
-<!-- Projects -->
-<div class="title" id="Project">
-  <h3>Projects</h3></div>
-   <div class="content">
-      <div class="column">
-          <div class="card">
-              <p>This is a placeholder for brief description for my HMTL works</p> 
-          </div>
-      </div> 
-
-      <div class="column">
-            <header>HTML-Practice</header>
-                <img src="HTML.jpg" alt="work on html">                                            
-      </div> 
-    
-     <div class="column">
-        <div class="card">
-              <p>This is a placeholder for brief description for HTML+CSS work</p> 
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"> Portfolio</div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
         </div>
-     </div>
+    </nav>   
 
-     <div class="column">
-            <header>HTML & CSS-Practice</header>
-                  <img src="html-css.jpg" alt="work on html&css"> 
-       </div>
-                     
-      <div class="column"> 
-        <div class="card">
-              <p>This is a placeholder for my learning roadmap</p> 
+     <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Zelinda Singh</div>
+                <div class="text-2">web developer</div>
+            </div>  
+            <ul class="soc">
+                <li><a href="github.html"><img src="image/github.png"></a></li>
+                <li><a href="email.html"><img src="image/email.png"></a></li>
+                <li><a href="fb.html"><img src="image/facebook.png"></a></li>
+            </ul>
         </div>
-      </div>
+    </section>
 
-      <div class="column">
-            <header>HTML-CSS-JS-Practice</header>
-                <img src="html-css-javascrit.jpg" alt="work on html-css-js"> 
-        
-      </div> 
-</div>
-
-<!-- Contact -->
-<div class="Contact" id="Contact">
-          <div class="title">
-              <h3>Contact Info</h3>
-          </div>
-                  
-                <div class="text2">
-                   <p>Email: hizelna@hotmail.com</p>
-                   <p>Phone number: 720-235-7787</p>
-                   <a href="https://www.linkedin.com/in/zelinda-singh-37752a56/">LinkedIn</a>
+     <!-- about section start -->
+     <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="image/Female-Avatar.png" alt="Female avatar">
                 </div>
-          </div>
-</div>
+                <div class="column right">
+                    <div class="text">My name is Zelinda Singh and I am a web developer.</div>
+                    <p>Currently I am working as an accountant. Since I am ambitious and very driven, I am taking Fullstack web 
+                       development course.I try to give my best in everything I do. I am not shy to ask questions if I don't 
+                       understand the task. I also try to do my research before coming to a conclusion or asking anyone for help.
+                       I am a very hardworking person and alway give my best in everthing I do.</p>
+                    <a href="resume.html" target="_blank">Download Resume</a>
+                 </div>     
+            </div>  
+        </div>
+    </section>
 
+    <!-- Projects section start -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">My projects</h2>
+            <div class="projects-content">
+                <div class="card"> 
+                    <div class="box">
+                        <div class="text">HTML project</div>
+                        <p>This is a placeholder for brief description for my HMTL works</p>
+                    </div>     
+                </div>  
+
+                <div class="card"> 
+                    <div class="box">
+                        <div class="text">HTML & CSS project</div>
+                        <p>This is a placeholder for brief description for HTML & CSS work</p>
+                    </div>     
+                </div>  
+
+                <div class="card"> 
+                    <div class="box">
+                        <div class="text">Apps Design project</div>
+                        <p>This is a placeholder for my learning roadmap</p>
+                    </div>   
+                </div>    
+            </div>     
+        </div> 
+    </section>  
+
+    <!-- Contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Info</h2>
+            <div class="contact-content">
+                <div class="info">
+                    <div class="head">Name:</div>
+                    <div class="subtitle">Zelinda Singh</div>
+                </div>
+                    
+                <div class="info">
+                    <div class="head">Address:</div>
+                    <div class="subtitle">Denver CO</div>
+                </div>
+
+                <div class="info">
+                    <div class="head">Email:</div>
+                    <div class="subtitle">hizelna@hotmail.com</div>
+                </div>
+            </div>
+        </div>     
+    </section>  
+    
+        
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+    
